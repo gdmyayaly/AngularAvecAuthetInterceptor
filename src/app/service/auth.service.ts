@@ -7,8 +7,8 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class AuthService {
-  private urllogin:string="http://127.0.0.1:8000/login";
-  private urlInfos:string="http://127.0.0.1:8000/infos";
+  private urllogin:string="http:academy.cultureteamgrow.com/login";
+  private urlInfos:string="http:academy.cultureteamgrow.com/infos";
    jwt: string;
   constructor(private http: HttpClient,private route:Router) { }
   logger(data){
